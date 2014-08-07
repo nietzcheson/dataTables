@@ -1,7 +1,5 @@
 jQuery.fn.extend({
-
   searchTable: function(options){
-
   defaults = {
       fadeIn: 500,
       fadeOut: 500
@@ -17,7 +15,8 @@ jQuery.fn.extend({
       elemento = "."+elementoID.attr("class");
     }
 
-    elemento = elemento+" tr th input";
+    elemento = elemento+" th input";
+
 
 
     var getTr = function(){
